@@ -1,0 +1,49 @@
+body {
+    background-color: #50766e;
+}
+
+.container-fluid {
+    margin-top: 30px;
+    position: relative;
+}
+
+#background-photo {
+    border-radius: 25px;
+    width: 90%;
+    height: 90%;
+    
+}
+
+#heading {
+    position: absolute;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    box-shadow: 5px;
+}
+
+.gameHere {
+    position: absolute;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    bottom: 40%;
+    background-color: #50766e;
+    box-shadow: 8px 0 0  #50766e, -8px 0 0  #50766e;
+
+}
+
+.btn-lg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
