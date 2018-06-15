@@ -5,45 +5,52 @@ body {
 .container-fluid {
     margin-top: 30px;
     position: relative;
+    display: inline-block;
 }
 
 #background-photo {
     border-radius: 25px;
     width: 90%;
     height: 90%;
-    
 }
 
 #heading {
     position: absolute;
+    top: 10%;
     font-family: 'Abril Fatface', cursive;
     font-size: 60px;
     color: white;
     text-align: center;
-    box-shadow: 5px;
+    display: block;
 }
 
-.gameHere {
-    position: absolute;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 24px;
-    color: white;
-    text-align: center;
-    bottom: 40%;
-    background-color: #50766e;
-    box-shadow: 8px 0 0  #50766e, -8px 0 0  #50766e;
-
-}
-
-.btn-lg {
+#gameHere {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    background-color: #50766e;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    display: block;
+}
+
+#startButton {
     font-size: 16px;
-    padding: 12px 24px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#mainDiv {
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.75;
+    margin: 10px;
 }
